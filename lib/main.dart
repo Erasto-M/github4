@@ -34,8 +34,8 @@ class _HomeState extends State<Home> {
       title: const Text("Welocme"),
     ),
         body: Column(
-        children: [
-
+        children: const [
+          Text("Welocme to my channel"),
       ],
     ),
     );
