@@ -29,8 +29,15 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    appBar: AppBAr(
-    );
+    appBar: AppBar(
+      centerTitle: true,
+      title: const Text("Welocme"),
+    ),
+        body: Column(
+        children: [
+
+      ],
+    ),
     );
   }
 }
